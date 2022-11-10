@@ -87,12 +87,21 @@ address {
   border-bottom: 1px solid #ececec;
 }
 
+.centur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.nav .nav__link {
+.nav .navigate__link {
   display: block;
   padding: 32px 0;
   margin-top: 32px;
@@ -105,7 +114,7 @@ address {
   text-decoration: none;
   cursor: pointer;
 }
-.nav .nav__link:hover, .nav .nav__link:focus {
+.nav .navigate__link:hover, .nav .navigate__link:focus {
   color: #2196f3;
 }
 
