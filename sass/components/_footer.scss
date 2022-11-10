@@ -14,9 +14,9 @@
 .footer__address {
   margin-right: 70px;
 }
-.logo.foot {
+.nav__logo.foot {
   display: block;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .nav__logo-third {
@@ -62,7 +62,7 @@
   justify-content: center;
   margin: auto;
 }
-.social-media-link.foot {
+.socialmedia__link.foot {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: $background-color;
