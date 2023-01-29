@@ -21,9 +21,9 @@
 
 .nav__logo-third {
   font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: 800;
+  font-size: 18px;
+  line-height:1.17;
   color: $background-color;
 }
 
@@ -52,11 +52,11 @@
 .f-socialmedia__tittle {
   display: block;
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  // text-transform: uppercase;
   color: $background-color;
   margin-bottom: 20px;
   justify-content: center;
@@ -81,11 +81,11 @@
   align-items: flex-end;
 
   .f-form__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    // text-transform: uppercase;
     color: $background-color;
     margin-bottom: 20px;
   }
@@ -129,9 +129,9 @@
       vertical-align: middle;
     }
     .f-form__btn-text {
-      font-weight: 700;
+      font-weight: 500;
       font-size: 16px;
-      line-height: 1.88;
+      line-height: 1.5;
       padding: 0;
       letter-spacing: 0.06em;
       color: $background-color;
@@ -139,4 +139,15 @@
       margin-right: 12px;
     }
   }
+}
+.footer-text{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+ color: #E7E9FC;
+
+  
 }
